@@ -1,0 +1,20 @@
+{
+    "name": "jakedewitt87/php-isdk-php7",
+    "description": "The Unofficial Infusionsoft API PHP SDK for PHP 7.",
+    "keywords": ["api","PHP7"],
+    "license": "MIT",
+    "homepage": "https://developer.infusionsoft.com",
+    "authors": [
+        {
+            "name": "Infusionsoft",
+            "homepage": "https://developer.infusionsoft.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "classmap": ["src/isdk.php"]
+    }
+}
